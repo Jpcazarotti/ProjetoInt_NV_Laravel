@@ -6,7 +6,7 @@
     <title>CAM</title>
     <link
       rel="shortcut icon"
-      href="view/img/Projeto CAM - Logo do Site.png"
+      href="img/Logo_Site.png"
       type="image/x-icon"
     />
     <link
@@ -62,9 +62,9 @@
         <div class="row">
           <div class="col-md-3">
             <h1 id="logo">
-              <a href="index.php"
+              <a href="index.blade.php"
                 ><img
-                  src="view/img/Projeto Remover fundo.png"
+                  src="img/Projeto_logo.png"
                   alt="Logo do site"
                   width="130"
                   class="img-fluid"
@@ -74,9 +74,9 @@
           <div id="menu" class="col-md-5">
             <nav>
               <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="view/sobre_nos.php">Sobre Nós</a></li>
-                <li><a href="view/nt.php">Notícias e Atualizações</a></li>
+                <li><a href="index.blade.php">Home</a></li>
+                <li><a href="sobre_nos.blade.php">Sobre Nós</a></li>
+                <li><a href="nt.blade.php">Notícias e Atualizações</a></li>
               </ul>
             </nav>
           </div>
@@ -124,7 +124,7 @@
                 >
                   <h5>Instituições Online</h5>
                   <img
-                    src="view/img/aten_online.png"
+                    src="img/aten_online.png"
                     alt="Atendimento Online. Clique para saber mais."
                     width="300"
                     class="img-fluid bt_img"
@@ -141,7 +141,7 @@
                 >
                   <h5>Instituições Presenciais</h5>
                   <img
-                    src="view/img/aten_presencial.png"
+                    src="img/aten_presencial.png"
                     alt="Atendimento Presencial. Clique para saber mais."
                     width="300"
                     class="img-fluid bt_img"
@@ -165,7 +165,7 @@
                       <a href="https://casademarias.com/" target="_blank">
                         <div class="boxImg">
                           <img
-                            src="view/img/casa de marias.png"
+                            src="img/casa_marias.png"
                             alt="casa das marias"
                             class="img-fluid"
                           />
@@ -177,7 +177,7 @@
                       <a href="https://www.casaum.org/" target="_blank">
                         <div class="boxImg">
                           <img
-                            src="view/img/casa1.png"
+                            src="img/casa1.png"
                             alt="casa1"
                             class="img-fluid"
                           />
@@ -189,7 +189,7 @@
                       <a href="https://www.bemdoestar.org/" target="_blank">
                         <div class="boxImg">
                           <img
-                            src="view/img/bem do estar.png"
+                            src="img/bem_do_estar.png"
                             alt="Instituto bem do estar"
                             class="img-fluid"
                           />
@@ -204,7 +204,7 @@
                       >
                         <div class="boxImg">
                           <img
-                            src="view/img/borboletaAzul.png"
+                            src="img/borboletaAzul.png"
                             alt="Instituto Borboleta Azul"
                             class="img-fluid"
                           />
@@ -216,7 +216,7 @@
                       <a href="https://ipefem.org.br/" target="_blank">
                         <div class="boxImg">
                           <img
-                            src="view/img/ipefem.png"
+                            src="img/ipefem.png"
                             alt="Instituto Ipefem"
                             class="img-fluid"
                           />
@@ -228,7 +228,7 @@
                       <a href="https://cvv.org.br/" target="_blank">
                         <div class="boxImg">
                           <img
-                            src="view/img/cvv.png"
+                            src="img/cvv.png"
                             alt="Centro de Valorização da Vida"
                             class="img-fluid"
                           />
@@ -261,7 +261,7 @@
                       >
                         <div class="boxImg">
                           <img
-                            src="view/img/caps.png"
+                            src="img/caps.png"
                             alt="caps"
                             class="img-fluid"
                           />
@@ -277,7 +277,7 @@
                       <div id="ahref">
                         <div class="boxImg">
                           <img
-                            src="view/img/samu.png"
+                            src="img/samu.png"
                             alt="samu"
                             class="img-fluid"
                           />
@@ -295,7 +295,7 @@
                       >
                         <div class="boxImg">
                           <img
-                            src="view/img/unimar.png"
+                            src="img/unimar.png"
                             alt="Unimar"
                             class="img-fluid"
                           />
@@ -307,7 +307,7 @@
                       <a href="https://www.aa.org.br/" target="_blank">
                         <div class="boxImg">
                           <img
-                            src="view/img/AA.png"
+                            src="img/AA.png"
                             alt="alcolicos anonimos"
                             class="img-fluid"
                           />
@@ -364,7 +364,7 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
                     <img
-                      src="view/img/Passeata dos Idosos.png"
+                      src="img/PasseataIdosos.png"
                       class="d-block w-100 img-carrosel"
                       alt="passeata dos idosos"
                     />
@@ -376,7 +376,7 @@
                   </div>
                   <div class="carousel-item" data-bs-interval="10000">
                     <img
-                      src="view/img/Evento Saúde-Mental.png"
+                      src="img/EventoSaúde.png"
                       class="d-block w-100 img-carrosel"
                       alt="evento"
                     />
@@ -388,7 +388,7 @@
                   </div>
                   <div class="carousel-item" data-bs-interval="10000">
                     <img
-                      src="view/img/Palestra.png"
+                      src="img/Palestra.png"
                       class="d-block w-100 img-carrosel"
                       alt="palestra"
                     />
@@ -436,13 +436,13 @@
           <div class="col-md-3 rd">
             <h2>CAM</h2>
             <ul class="rp">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="view/sobre_nos.php">Sobre Nós</a></li>
-              <li><a href="view/nt.php">Notícias e Atualizações</a></li>
+              <li><a href="index.blade.php">Home</a></li>
+              <li><a href="sobre_nos.blade.php">Sobre Nós</a></li>
+              <li><a href="nt.blade.php">Notícias e Atualizações</a></li>
               <li>
-                <a href="view/pdp.php">Política de Privacidade</a>
+                <a href="pdp.blade.php">Política de Privacidade</a>
               </li>
-              <li><a href="view/faq.php">FAQ</a></li>
+              <li><a href="faq.blade.php">FAQ</a></li>
             </ul>
           </div>
           <div class="col-md-3">
@@ -468,6 +468,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
   </body>
 </html>
