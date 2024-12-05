@@ -6,7 +6,7 @@
     <title>CAM</title>
     <link
       rel="shortcut icon"
-      href="img/Projeto CAM - Logo do Site.png"
+      href="img/Logo_Site.png"
       type="image/x-icon"
     />
     <link
@@ -40,7 +40,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -64,7 +64,7 @@
             <h1 id="logo">
               <a href="index.php"
                 ><img
-                  src="img/Projeto Remover fundo.png"
+                  src="img/Projeto_logo.png"
                   alt="Logo"
                   width="130"
                   class="img-fluid"
@@ -257,6 +257,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
   </body>
 </html>
