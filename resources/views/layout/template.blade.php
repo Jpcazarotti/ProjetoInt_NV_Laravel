@@ -41,16 +41,16 @@
             <div class="row">
                 <div class="col-md-3">
                     <h1 id="logo">
-                        <a href="../index.php"><img src="img/Projeto_logo.png" alt="Logo" width="130"
+                        <a href="{{ route('home') }}"><img src="img/Projeto_logo.png" alt="Logo" width="130"
                                 class="img-fluid" /></a>
                     </h1>
                 </div>
                 <div id="menu" class="col-md-5">
                     <nav>
                         <ul>
-                            <li><a href="../index.php">Home</a></li>
-                            <li><a href="sobre_nos.php">Sobre Nós</a></li>
-                            <li><a href="nt.php">Notícias e Atualizações</a></li>
+                            <li><a href="{{ route('home') }}">Home</a></li>
+                            <li><a href="{{ route('sobre-nos') }}">Sobre Nós</a></li>
+                            <li><a href="{{ route('nt') }}">Notícias e Atualizações</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -66,13 +66,13 @@
                 <div class="col-md-3 rd">
                     <h2>CAM</h2>
                     <ul class="rp">
-                        <li><a href="../index.php">Home</a></li>
-                        <li><a href="sobre_nos.php">Sobre Nós</a></li>
-                        <li><a href="nt.php">Notícias e Atualizações</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
+                        <li><a href="{{ route('sobre-nos') }}">Sobre Nós</a></li>
+                        <li><a href="{{ route('nt') }}">Notícias e Atualizações</a></li>
                         <li>
-                            <a href="pdp.php">Política de Privacidade</a>
+                            <a href="{{ route('pdp') }}">Política de Privacidade</a>
                         </li>
-                        <li><a href="faq.php">FAQ</a></li>
+                        <li><a href="{{ route('faq') }}">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
