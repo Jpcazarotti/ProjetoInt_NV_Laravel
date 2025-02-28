@@ -45,12 +45,13 @@
                                 class="img-fluid" /></a>
                     </h1>
                 </div>
-                <div id="menu" class="col-md-5">
+                <div id="menu" class="col-md-6">
                     <nav>
                         <ul>
                             <li><a href="{{ route('home') }}">Home</a></li>
                             <li><a href="{{ route('sobre-nos') }}">Sobre Nós</a></li>
                             <li><a href="{{ route('nt') }}">Notícias e Atualizações</a></li>
+                            <li><a href="{{ route('login') }}">Entrar</a></li>
                         </ul>
                     </nav>
                 </div>

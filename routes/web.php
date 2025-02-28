@@ -8,3 +8,5 @@ Route::get("/faq", [SiteController::class, "faq"])-> name('faq');
 Route::get("/sobre-nos", [SiteController::class, "sobreNos"])-> name('sobre-nos');
 Route::get("/noticias-e-atualizacoes", [SiteController::class, "nt"])-> name('nt');
 Route::get("/politica-de-privacidade", [SiteController::class, "pdp"])-> name('pdp');
+Route::get("/login", [SiteController::class, "login"])-> name('login');
+Route::get("/cadastro", [SiteController::class, "cadastro"])-> name('cadastro');

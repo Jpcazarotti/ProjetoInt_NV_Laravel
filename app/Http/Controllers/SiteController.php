@@ -30,4 +30,14 @@ class SiteController extends Controller
     {
         return view('pdp');
     }
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function cadastro()
+    {
+        return view('cadastro');
+    }
 }
