@@ -64,7 +64,7 @@
     <footer id="footer">
         <div id="rodape" class="container">
             <div class="row justify-content-center">
-                <div class="col-md-3 rd">
+                <div class="col-md-2 rd">
                     <h2>CAM</h2>
                     <ul class="rp">
                         <li><a href="{{ route('home') }}">Home</a></li>
@@ -74,9 +74,10 @@
                             <a href="{{ route('pdp') }}">Política de Privacidade</a>
                         </li>
                         <li><a href="{{ route('faq') }}">FAQ</a></li>
+                        <li><a href="#">Aplicativo CAM</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h2>Contato</h2>
                     <ul class="rp">
                         <li>

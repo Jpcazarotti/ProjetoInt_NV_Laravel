@@ -53,8 +53,7 @@
                             <br />
                             <br />
 
-                            Nosso time é formado por João, Bruno, Vinícius, Takahashi,
-                            Adrian e Luís.
+                            Nosso time é formado por João Pedro Cazarotti, Bruno Goia e Karol Cunha.
                             <br />
                             <br />
 

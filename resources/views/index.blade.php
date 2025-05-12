@@ -111,7 +111,7 @@
             </div>
             <div class="container">
                 <div id="rowpresencial" class="row justify-content-center coalp">
-                    <div class="col-md-8">
+                    <div class="col-md-10">
                         <div class="collapse multi-collapse" id="aten_presencial">
                             <div class="card card-body backBotoes">
                                 <h5 class="text-center">Instituições - Marília-SP</h5>
@@ -152,6 +152,22 @@
                                                 <img src="img/AA.png" alt="alcolicos anonimos" class="img-fluid" />
                                             </div>
                                             <h5>Alcoólicos Anônimos</h5>
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn_text">
+                                        <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/u/upa-24h" target="_blank">
+                                            <div class="boxImg">
+                                                <img src="img/upa.jpg" alt="UPA" class="img-fluid" />
+                                            </div>
+                                            <h5>UPA</h5>
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn_text">
+                                        <a href="https://amorexigente.org/grupos-presenciais/" target="_blank">
+                                            <div class="boxImg">
+                                                <img src="img/ae.png" alt="Grupo Mariliense de Amor Exigente - AMAE" class="img-fluid" />
+                                            </div>
+                                            <h5>AMAE</h5>
                                         </a>
                                     </button>
                                 </div>

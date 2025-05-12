@@ -50,11 +50,30 @@
             </div>
         </section>
 
+        <section id="blocoVideo">
+            <div class="container">
+                <div class="row rows">
+                    <div class="col-md-6 text-center" data-aos="fade-right">
+                        <h2>Saúde Mental Importa</h2>
+                        <p id="textVideo">
+                            Você já parou para pensar em como anda sua saúde mental? Neste vídeo, você vai descobrir por que cuidar da mente é tão importante quanto cuidar do corpo. Entenda os sinais de alerta, saiba onde buscar ajuda e veja como pequenas atitudes podem transformar sua vida. Assista agora e dê o primeiro passo para o seu bem-estar!
+                        </p>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-left">
+                        <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/2FGI1Zuf--E?start=9"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="twobloco">
             <div class="container">
                 <div class="row rows">
                     <div class="col-md-6 text-center" data-aos="fade-right">
-                        <img src="img/Palestra.png" alt="Palestra" class="img-fluid" />
+                        <img class="iframe" src="img/Palestra.png" alt="Palestra" class="img-fluid" />
                     </div>
                     <div class="col-md-6 text-center" data-aos="fade-left">
                         <p class="textinhos">
@@ -78,12 +97,12 @@
                         </p>
                     </div>
                     <div class="col-md-6 text-center" data-aos="fade-left">
-                        <img src="img/PasseataIdosos.png" alt="Passeata" class="img-fluid" />
+                        <img class="iframe" src="img/PasseataIdosos.png" alt="Passeata" class="img-fluid" />
                     </div>
                 </div>
                 <div class="row rows">
                     <div class="col-md-6 text-center" data-aos="fade-right">
-                        <img src="img/EventoSaúde.png" alt="Evento" class="img-fluid" />
+                        <img class="iframe" src="img/EventoSaúde.png" alt="Evento" class="img-fluid" />
                     </div>
                     <div class="col-md-6 text-center" data-aos="fade-left">
                         <p class="textinhos">
