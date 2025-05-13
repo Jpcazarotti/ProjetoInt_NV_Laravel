@@ -157,7 +157,7 @@
                                     <button type="button" class="btn btn_text">
                                         <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/u/upa-24h" target="_blank">
                                             <div class="boxImg">
-                                                <img src="img/upa.jpg" alt="UPA" class="img-fluid" />
+                                                <img src="img/upa.png" alt="UPA" class="img-fluid" />
                                             </div>
                                             <h5>UPA</h5>
                                         </a>
@@ -165,7 +165,7 @@
                                     <button type="button" class="btn btn_text">
                                         <a href="https://amorexigente.org/grupos-presenciais/" target="_blank">
                                             <div class="boxImg">
-                                                <img src="img/ae.png" alt="Grupo Mariliense de Amor Exigente - AMAE" class="img-fluid" />
+                                                <img src="img/ae.png" alt="Assossiação Mariliense de Amor Exigente - AMAE" class="img-fluid" />
                                             </div>
                                             <h5>AMAE</h5>
                                         </a>

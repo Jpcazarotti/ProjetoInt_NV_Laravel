@@ -40,7 +40,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
   </head>
   <body>
     <header id="cabecalho">
@@ -60,9 +60,9 @@
           <div id="menu" class="col-md-5">
             <nav>
               <ul>
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="sobre_nos.php">Sobre Nós</a></li>
-                <li><a href="nt.php">Notícias e Atualizações</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('sobre-nos') }}">Sobre Nós</a></li>
+                <li><a href="{{ route('nt') }}">Notícias e Atualizações</a></li>
               </ul>
             </nav>
           </div>
@@ -136,6 +136,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
   </body>
 </html>

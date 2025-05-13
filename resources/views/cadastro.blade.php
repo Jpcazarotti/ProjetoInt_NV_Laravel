@@ -40,7 +40,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
   </head>
   <body>
     <header id="cabecalho">
@@ -60,9 +60,9 @@
           <div id="menu" class="col-md-5">
             <nav>
               <ul>
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="sobre_nos.php">Sobre Nós</a></li>
-                <li><a href="nt.php">Notícias e Atualizações</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('sobre-nos') }}">Sobre Nós</a></li>
+                <li><a href="{{ route('nt') }}">Notícias e Atualizações</a></li>
               </ul>
             </nav>
           </div>
@@ -78,7 +78,7 @@
               <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-4">
                   <label for="validationCustom01" class="form-label"
-                    >Primeiro Nome</label
+                    >Nome</label
                   >
                   <input
                     type="text"
@@ -133,18 +133,18 @@
                   />
                 </div>
                 <div>
-                  <label for="inputPassword5" class="form-label"
-                    >Senha</label
+                  <label for="inputPassword6" class="form-label"
+                    >Confirmar Senha</label
                   >
                   <input
                     type="password"
-                    id="inputPassword5"
+                    id="inputPassword6"
                     class="form-control"
                     aria-describedby="passwordHelpBlock"
-                    placeholder="Sua senha deve conter no mínimo 8 caracteres"
+                    placeholder="Confirme sua senha"
                   />
                 </div>
-                <div class="col-12">
+                <div class="col-7">
                   <div class="form-check">
                     <input
                       class="form-check-input"
@@ -161,8 +161,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
-                  <button class="btn btn-primary" type="submit">
+                <div class="col-5">
+                  <button class="btn btn-primary btnLogarCadastrar" type="submit">
                     Cadastrar
                   </button>
                 </div>
@@ -178,6 +178,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
   </body>
 </html>
