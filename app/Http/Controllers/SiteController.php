@@ -40,4 +40,9 @@ class SiteController extends Controller
     {
         return view('cadastro');
     }
+
+    public function recuperarSenha()
+    {
+        return view('recuperar_senha');
+    }
 }

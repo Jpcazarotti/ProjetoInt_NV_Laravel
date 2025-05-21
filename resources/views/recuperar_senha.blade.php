@@ -79,53 +79,17 @@
       <div id="BM_CAM" class="container">
         <div class="row justify-content-center">
           <div class="col-md-3 texto_banner_login">
-            <form class="px-4 py-3" id="div_back_forms">
-              <div class="mb-3">
-                <label for="exampleFormEmail1" class="form-label label_email_senha">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormEmail1"
-                  placeholder="email@example.com" />
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormPassword1" class="form-label label_email_senha">
-                  Senha
-                </label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleFormPassword1"
-                  placeholder="Senha" />
-              </div>
-              <div class="row px-3 mb-2">
-                <div class="form-check col-5">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="dropdownCheck" />
-                  <label
-                    class="form-check-label"
-                    for="dropdownCheck">
-                    Lembrar-me
-                  </label>
-                </div>
-                <div class="col-7 btnLogarAlign">
-                  <button type="submit" class="btn btn-primary btnLogar">
-                    Logar
-                  </button>
-                </div>
-              </div>
-              <div class="row mb-2 txt_login">
-                <a class="dropdown-item" href="{{ route('cadastro') }}">Novo aqui? Cadastre-se</a>
-              </div>
-              <div class="row txt_login">
-                <a class="dropdown-item" href="{{ route('recu_senha') }}">Esqueceu a senha?</a>
-              </div>
-            </form>
-
+            <div class="px-4 py-3" id="div_back_forms">
+              <h2>Recuperar Senha</h2>
+              <p class="mb-3" id="txt_recuperar_senha">
+                Para recuperar sua senha, digite o e-mail que você usou para se
+                cadastrar à baixo.
+              </p>
+              <input type="email" class="form-control mb-3" id="email_recu" placeholder="email@example.com">
+              <button type="submit" class="btn btn-primary btnLogar">
+                Enviar
+              </button>
+            </div>
           </div>
         </div>
       </div>

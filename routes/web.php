@@ -10,3 +10,4 @@ Route::get("/noticias-e-atualizacoes", [SiteController::class, "nt"])-> name('nt
 Route::get("/politica-de-privacidade", [SiteController::class, "pdp"])-> name('pdp');
 Route::get("/login", [SiteController::class, "login"])-> name('login');
 Route::get("/cadastro", [SiteController::class, "cadastro"])-> name('cadastro');
+Route::get("/recuperacao-de-senha", [SiteController::class, "recuperarSenha"])-> name('recu_senha');
